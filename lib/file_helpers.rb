@@ -20,17 +20,17 @@ module FileHelpers
   end
 
   def find_logic_path
-    path = '/Applications/Logic Pro X.app/Contents/Resources'
+    path = '/Documents/Logic Pro X.app/Contents/Resources'
     return path if File.exist?(path)
 
-    path = '/Applications/Logic Pro.app/Contents/Resources'
+    path = '/Documents/Logic Pro.app/Contents/Resources'
     return path if File.exist?(path)
 
     raise 'Logic Pro X not found'
   end
 
   def find_mainstage_path
-    path = '/Applications/MainStage 3.app/Contents/Resources'
+    path = '/Documents/MainStage 3.app/Contents/Resources'
     return path if File.exist?(path)
 
     raise 'Mainstage not found'
