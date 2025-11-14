@@ -27,7 +27,7 @@ This tool creates text files with direct download links for all Logic Pro and Ma
 Open Terminal and paste this command:
 
 ```bash
-cd ~/Downloads && mkdir -p lpx_links/app && cd lpx_links/app && curl -#L https://github.com/davidteren/lpx_links/tarball/master | tar -xzv --strip-components 1 && ./lpx_links.rb
+cd ~/Downloads && mkdir -p lpx_links/app && cd lpx_links/app && curl -#L https://github.com/Nyeoom/lpx_links/tarball/master | tar -xzv --strip-components 1 && ./lpx_links.rb
 ```
 
 This generates download links for both Logic Pro and MainStage content.
